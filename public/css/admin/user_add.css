@@ -1,0 +1,28 @@
+/*
+Copyright(c)2016 All rights reserved.
+@Licenced  http://www.w3.org
+@Author  liutian<1538731090@qq.com> liutian_jiayi
+@Create on 2016-6-22 10:53:20
+@Version 1.0
+*/
+/* 
+    Created on : 2016-6-22, 10:53:20
+    Author     : Administrator
+*/
+.main_right form {
+	margin: 20px 50px;
+}
+
+.main_right form p {
+	margin:10px 0;
+	font:14px 宋体;
+}
+
+.main_right form p input[type="text"], .main_right form p input[type="password"] {
+	border:1px solid #ccc;
+	width:250px;
+	height:24px;
+	border-radius: 3px;
+	box-shadow:2px 2px 3px #ddd;
+	padding: 0 0 0 5px;
+}

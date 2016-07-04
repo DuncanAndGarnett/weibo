@@ -1,0 +1,33 @@
+/*
+Copyright(c)2016 All rights reserved.
+@Licenced  http://www.w3.org
+@Author  liutian<1538731090@qq.com> liutian_jiayi
+@Create on 2016-6-21 12:05:42
+@Version 1.0
+*/
+/* 
+    Created on : 2016-6-21, 12:05:42
+    Author     : Administrator
+*/
+
+.main_right form {
+	
+}
+
+.main_right form p input[type='text']{
+	width:200px;
+	height:24px;
+	font:14px/24px 宋体;
+	border:1px solid #ddd;
+	border-radius: 3px;
+	color:#666;
+	padding: 0 0 0 5px;
+} 
+ table {
+	width:780px;
+	border-collapse: collapse;
+	border:0;
+}
+ table td {
+	border:1px solid #ddd;
+}

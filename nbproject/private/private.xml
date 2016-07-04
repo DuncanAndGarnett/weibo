@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/wamp/www/weibo/app/Http/Controllers/Admin/IndexController.php</file>
+            <file>file:/E:/wamp/www/weibo/public/css/admin/user_index.css</file>
+            <file>file:/E:/wamp/www/weibo/resources/views/layout/left.blade.php</file>
+            <file>file:/E:/wamp/www/weibo/app/Http/Controllers/Admin/UserController.php</file>
+            <file>file:/E:/wamp/www/weibo/resources/views/layout/right.blade.php</file>
+            <file>file:/E:/wamp/www/weibo/resources/views/Admin/index.blade.php</file>
+            <file>file:/E:/wamp/www/weibo/app/Http/Controllers/Admin/LayoutController.php</file>
+            <file>file:/E:/wamp/www/weibo/composer.json</file>
+            <file>file:/E:/wamp/www/weibo/resources/views/Admin/user/index.blade.php</file>
+            <file>file:/E:/wamp/www/weibo/resources/views/layout/top.blade.php</file>
+            <file>file:/E:/wamp/www/weibo/config/database.php</file>
+            <file>file:/E:/wamp/www/weibo/app/Http/routes.php</file>
+        </group>
+    </open-files>
+</project-private>

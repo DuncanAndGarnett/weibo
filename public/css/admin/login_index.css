@@ -1,0 +1,29 @@
+/*
+Copyright(c)2016 All rights reserved.
+@Licenced  http://www.w3.org
+@Author  Expression email is undefined on line 6, column 28 in Templates/Licenses/license-default.txt. LauTinggg <weibo>
+@Create on 2016-6-30 10:03:06
+@Version 1.0
+*/
+/* 
+    Created on : 2016-6-30, 10:03:06
+    Author     : Administrator
+*/
+#code {
+	display:none;
+	position:absolute;
+}
+
+span.error{
+	font:13px Arial;
+	margin: 0 0 0 5px;
+	background:url('/images/error.gif') no-repeat left center;
+	padding: 0 0 0 15px;
+}
+
+span.right {
+	font:13px Arial;
+	margin: 0 0 0 5px;
+	background:url('/images/right.gif') no-repeat left center;
+	padding: 0 0 0 15px;
+}
