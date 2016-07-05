@@ -26,3 +26,8 @@ Route::get("/right","Admin\LayoutController@right");
 
 //后台用户模块
 Route::any("/Admin/user","Admin\UserController@index");
+
+//前台模板
+Route::get("/Home","Home\IndexController@index");
+//登录页面
+Route::any("/Home/login","Home\LoginController@login");

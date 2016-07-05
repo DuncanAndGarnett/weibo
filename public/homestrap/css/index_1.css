@@ -1,0 +1,25 @@
+/* ::::: https://g.alicdn.com/tb/login/0.4.7/weibo/css/base.css ::::: */
+
+body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, li, ol, p, table, td, th, ul { margin: 0px; padding: 0px; }
+body { font: 400 12px/1.6 arial; color: rgb(64, 64, 64); }
+.login { width: 240px; }
+.loading { height: 310px; background: transparent url('loading.gif') no-repeat scroll 50% 50%; }
+.loading .module, .logged, .module-logged .quick, .module-logged .static, .module-quick .logged, .module-quick .signed, .module-quick .static, .module-signed .logged, .module-signed .quick, .module-signed .static, .quick, .signed { display: none; }
+.module { position: relative; }
+.mod-info { color: rgb(64, 64, 64); padding-left: 20px; background: transparent url('ico-taobao.png') no-repeat scroll 0px 50%; }
+.message { padding: 2px 5px; margin-top: 5px; display: none; }
+.fields { margin-top: 0px; position: relative; }
+.other-account { position: absolute; right: 0px; }
+.edit-tmp { width: 0px; height: 0px; overflow: hidden; }
+.ww-list { height: 60px; overflow: auto; }
+.quickx { width: 210px; }
+.quickx .mod-info, .quickx .mod-submit { display: none; }
+.quickx .ww-hd { padding-left: 20px; background: transparent url('ico-taobao.png') no-repeat scroll 0px 50%; }
+.quickx .ww-list { height: 20px; }
+.quickxn .quick, .taobao-enter { display: none; }
+.taobao-enter a { display: inline-block; height: 20px; line-height: 20px; padding-left: 20px; background: transparent url('ico-taobao.png') no-repeat scroll 0px 50%; }
+.btn { display: inline-block; width: 112px; height: 24px; line-height: 24px; padding: 0px; vertical-align: middle; color: rgb(255, 255, 255); overflow: visible; font-size: 12px; font-weight: 400; border: medium none; background: transparent url('btn.png') no-repeat scroll 0px 0px; cursor: pointer; }
+.btn-hover, .btn:hover { background-position: 0px -24px; }
+a { color: rgb(0, 136, 204); text-decoration: none; }
+a:hover { color: rgb(255, 102, 0); text-decoration: underline; }
+.clearfix::after { content: ""; display: block; clear: both; visibility: hidden; height: 0px; }
