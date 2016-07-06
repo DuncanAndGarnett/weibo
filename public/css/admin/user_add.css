@@ -9,16 +9,15 @@ Copyright(c)2016 All rights reserved.
     Created on : 2016-6-22, 10:53:20
     Author     : Administrator
 */
-.main_right form {
+ form {
 	margin: 20px 50px;
 }
 
-.main_right form p {
+ form p {
 	margin:10px 0;
 	font:14px 宋体;
 }
-
-.main_right form p input[type="text"], .main_right form p input[type="password"] {
+ form p input[type="text"], .main_right form p input[type="password"] {
 	border:1px solid #ccc;
 	width:250px;
 	height:24px;

@@ -150,8 +150,8 @@ H1 a {
           </tr>
         </table>
         <ul class="MM">
-          <li><a href="{{url('/Admin/user')}}" target="main">用户列表</a></li>
-          <li><a href="{{url('/Admin/user/create')}}" target="main">添加用户</a></li>
+          <li><a href="{{ url('/Admin/user') }}" target="main">用户列表</a></li>
+          <li><a href="{{ url('/Admin/user/create') }}" target="main">添加用户</a></li>
         </ul>
       </div>
       <h1 class="type"><a href="javascript:void(0)">栏目分类管理</a></h1>
