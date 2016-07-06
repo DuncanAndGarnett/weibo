@@ -18,12 +18,13 @@ Route::get('/', function () {
 //后台首页
 Route::get("/Admin","Admin\IndexController@index");
 
-Route::get("/top","Admin\LayoutController@top");
+Route::get("/Admin/top","Admin\LayoutController@top");
 
-Route::get("/left","Admin\LayoutController@left");
+Route::get("/Admin/left","Admin\LayoutController@left");
 
-Route::get("/right","Admin\LayoutController@right");
+Route::get("/Admin/right","Admin\LayoutController@right");
 
+<<<<<<< HEAD
 /*-----------------------------------
  * 后台用户模块
  *-----------------------------------*/
@@ -42,3 +43,20 @@ Route::post("/Admin/user/setGroup","Admin\UserController@setGroup");
 /*------------------------------------
 
  * ---------------------------------- */
+=======
+//后台登录
+Route::get("/Admin/login","Admin\LoginController@index");
+//验证码路由
+Route::get(" /Admin/captcha/{tmp}","Admin\LoginController@captcha");
+//登录验证
+Route::post("/Admin/logTodo","Admin\LoginController@logTodo");
+//退出登录
+Route::get("/Admin/logout","Admin\LoginController@logout");
+
+
+
+//前台模板
+Route::get("/Home","Home\IndexController@index");
+//登录页面
+Route::any("/Home/login","Home\LoginController@login");
+>>>>>>> 10dadbbdbadd3f82f13278af6506699ad4a6b127

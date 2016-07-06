@@ -28,7 +28,7 @@
     
 </style>
 <center>
-    <form method="post" action="{{url("./Admin/user")}}">
+    <form method="post" action="{{url("/Admin/user")}}">
         <input type="hidden" name="_token" value="{{csrf_token()}}"/>
         <p>
             <input type="text" name="keyword" value="{{$keyword}}" placeholder="请输入要搜素的内容" />
@@ -64,7 +64,7 @@
 </table>
 
     <p>
-    {{$users->appends(['keyword'=>$keyword])->render()}}
+    {!!$users->appends(['keyword'=>$keyword])->render()!!}
     </p>
     <script src="{{asset("/js/admin/user_index.js")}}"></script>
 </center>
