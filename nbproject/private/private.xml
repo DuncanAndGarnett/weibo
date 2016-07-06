@@ -2,6 +2,7 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/D:/wamp/www/zhanlan/weibo/app/Http/Controllers/Home/UserController.php</file>
             <file>file:/D:/wamp/www/zhanlan/weibo/app/Http/routes.php</file>
@@ -10,5 +11,17 @@
             <file>file:/D:/wamp/www/zhanlan/weibo/app/User.php</file>
             <file>file:/D:/wamp/www/zhanlan/weibo/resources/views/Home/login.blade.php</file>
         </group>
+=======
+<<<<<<< HEAD
+        <group>
+            <file>file:/E:/wamp/www/bbs/weibo/app/Http/routes.php</file>
+            <file>file:/E:/wamp/www/bbs/weibo/app/Http/Controllers/Admin/UserController.php</file>
+            <file>file:/E:/wamp/www/bbs/weibo/resources/views/Admin/user/edit.blade.php</file>
+            <file>file:/E:/wamp/www/bbs/weibo/resources/views/Admin/user/create.blade.php</file>
+        </group>
+=======
+        <group/>
+>>>>>>> 10dadbbdbadd3f82f13278af6506699ad4a6b127
+>>>>>>> 0042bc36b1816221c7252698a99bd318f60f4092
     </open-files>
 </project-private>
