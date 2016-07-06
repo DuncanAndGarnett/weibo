@@ -18,14 +18,22 @@ Route::get('/', function () {
 //后台首页
 Route::get("/Admin","Admin\IndexController@index");
 
-Route::get("/top","Admin\LayoutController@top");
+Route::get("/Admin/top","Admin\LayoutController@top");
 
-Route::get("/left","Admin\LayoutController@left");
+Route::get("/Admin/left","Admin\LayoutController@left");
 
-Route::get("/right","Admin\LayoutController@right");
+Route::get("/Admin/right","Admin\LayoutController@right");
 
-//后台用户模块
-Route::any("/Admin/user","Admin\UserController@index");
+//后台登录
+Route::get("/Admin/login","Admin\LoginController@index");
+//验证码路由
+Route::get(" /Admin/captcha/{tmp}","Admin\LoginController@captcha");
+//登录验证
+Route::post("/Admin/logTodo","Admin\LoginController@logTodo");
+//退出登录
+Route::get("/Admin/logout","Admin\LoginController@logout");
+
+
 
 //前台模板
 Route::get("/Home","Home\IndexController@index");

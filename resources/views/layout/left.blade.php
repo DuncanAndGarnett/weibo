@@ -173,7 +173,7 @@ H1 a {
           <li><a href="http://www.865171.cn" target="main">商品类型</a></li>
         </ul>
       </div>
-      <h1 class="type"><a href="javascript:void(0)">栏目内容管理</a></h1>
+      <h1 class="type"><a href="javascript:void(0)">权限管理</a></h1>
       <div class="content">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
@@ -181,18 +181,9 @@ H1 a {
           </tr>
         </table>
         <ul class="MM">
-		  <li><a href="http://www.865171.cn" target="main">信息管理</a></li>
-          <li><a href="http://www.865171.cn" target="main">张贴管理</a></li>
-          <li><a href="http://www.865171.cn" target="main">增加商家</a></li>
-          <li><a href="http://www.865171.cn" target="main">管理商家</a></li>
-          <li><a href="http://www.865171.cn" target="main">发布资讯</a></li>
-          <li><a href="http://www.865171.cn" target="main">资讯管理</a></li>
-          <li><a href="http://www.865171.cn" target="main">市场联盟</a></li>
-          <li><a href="http://www.865171.cn" target="main">名片管理</a></li>
-          <li><a href="http://www.865171.cn" target="main">商城管理</a></li>
-          <li><a href="http://www.865171.cn" target="main">商品管理</a></li>
-          <li><a href="http://www.865171.cn" target="main">商城留言</a></li>
-          <li><a href="http://www.865171.cn" target="main">商城公告</a></li>
+          <li><a href="" target="main">所有权限</a></li>
+          <li><a href="" target="main">添加权限</a></li>
+         
         </ul>
       </div>
       <h1 class="type"><a href="javascript:void(0)">注册用户管理</a></h1>
